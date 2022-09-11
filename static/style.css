@@ -10,7 +10,8 @@ ul {
 
 #header {
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../static/images/header.jpg) center no-repeat;
-    height: 28rem;
+    height: 50%;
+    width: 100%;
 }
 
 .banner {
@@ -32,6 +33,7 @@ ul {
 .flex {
     color: white;
 }
+
 
 .h1-size {
     font-family: 'Roboto', sans-serif;
@@ -137,4 +139,75 @@ ul {
     100% {
         opacity: 0;
     }
+}
+
+
+.about-left {
+    margin-bottom: 4rem;
+    height: 480px;
+    overflow: hidden;
+
+}
+
+.py-7{
+    padding: 7rem 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.lead{
+    opacity: 0.8;
+    padding: 0.5rem 0;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn-down {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: var(--transition);
+    color: black;
+}
+
+.btn-down:hover {
+    opacity: 0.8;
+    transform: translateY(4px);
+}
+
+.title {
+    margin-bottom: 5rem;
+}
+
+.title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title h2::after{
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: darkgray;
+}
+
+.about-left {
+    margin-left: 155px;
+}
+
+.about-left img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 450%;
 }
