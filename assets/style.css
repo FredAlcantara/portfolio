@@ -101,10 +101,14 @@ Web Address: https://codepen.io/stack-findover/pen/eYWPwPV
 .title{
    text-align: center;
    margin-top: 20%;
-   font-size:x-large;
+   font-size:xx-large;
    color: floralwhite;
    font-family: roboto;
    padding: auto;
+}
+
+.name {
+    font-size: 70px;
 }
 
 .typewrite{
