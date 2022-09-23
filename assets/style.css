@@ -100,14 +100,35 @@ Web Address: https://codepen.io/stack-findover/pen/eYWPwPV
 
 .title{
    text-align: center;
-   margin-top: 25%;
+   margin-top: 20%;
    font-size:x-large;
    color: floralwhite;
    font-family: roboto;
    padding: auto;
 }
 
-a{
+.typewrite{
     text-decoration: none;
     color: floralwhite;
+    pointer-events: none;
+    cursor: default;
 }
+
+.type-container{
+    padding-top: 25px;
+}
+
+.view-btn{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-family: roboto;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+
